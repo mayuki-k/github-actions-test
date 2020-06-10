@@ -16,5 +16,5 @@ jobs:
     - name: Run a multi-line script
       run: |
          echo -----------------------------
-         echo ${{ENV_TEST}}
+         echo ${{secrets.ENV_TEST}}
          echo -----------------------------
