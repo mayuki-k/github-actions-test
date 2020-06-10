@@ -16,5 +16,5 @@ jobs:
     - name: Run a multi-line script
       run: |
          echo -----------------------------
-         echo HelloWorld
+         echo ${{ENV_TEST}}
          echo -----------------------------
