@@ -1,6 +1,7 @@
 # github-actions-test
 GitHubActionのテスト
 
-# Hello
+# CloudRunデプロイ
 
-gcloudでCloudRunへのデプロイを頑張っている
+- gcloudでCloudRunへのデプロイを頑張っている
+- 権限はCloudRunとCloudStorage(GCRかな？)
