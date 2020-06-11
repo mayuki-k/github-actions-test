@@ -5,3 +5,4 @@ GitHubActionのテスト
 
 - gcloudでCloudRunへのデプロイを頑張っている
 - 権限はCloudRunとCloudStorage(GCRかな？)とCloudBuild
+- CloudBuildAPIを有効にする？
