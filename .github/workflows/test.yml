@@ -26,6 +26,14 @@ jobs:
       run: docker build . -t $IMAGE
     - name: push docker image
       run: docker push $IMAGE
+    - name: deploy cloud run
+      run: |
+        gcloud run deploy foobar \
+              --image $IMAGE \
+              --project $GCP_PROJECT \
+              --region $GCP_REGION \
+              --platform managed \
+              --quiet
     
 
 
