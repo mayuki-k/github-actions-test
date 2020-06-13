@@ -6,6 +6,7 @@ GitHubActionのテスト
 ## 権限
 
 - iam.serviceaccounts.actAs
+- https://cloud.google.com/compute/docs/access/iam?hl=ja#iam.serviceAccountUser
 
 ## 案1
 
