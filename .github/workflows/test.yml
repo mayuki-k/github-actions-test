@@ -20,8 +20,8 @@ jobs:
         version: 275.0.0
         service_account_email: ${{secrets.GCP_EMAIL}}
         service_account_key: ${{secrets.GCP_PASSWORD}}
-     - name: Configure docker to use the gcloud cli
-        run: gcloud auth configure-docker --quiet
+    - name: gcloud docker config
+      run: gcloud auth configure-docker --quiet
     
 
 
