@@ -1,0 +1,14 @@
+on:
+  pull_request:
+    branches:
+      - master
+    types: [closed]
+jobs:
+  merge:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: pull-request merged
+        run: 
+          echo Hello

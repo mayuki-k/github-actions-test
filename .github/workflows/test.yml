@@ -1,14 +1,17 @@
-on:
-  pull_request:
-    branches:
-      - master
-    types: [closed]
-jobs:
-  merge:
-    if: github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: pull-request merged
-        run: 
-          echo Hello
+# 基本的なgithub action
+ name: CI
+
+ on:
+   push:
+     branches: [ master ]
+   pull_request:
+     branches: [ master ]
+
+ jobs:
+   build:
+     runs-on: ubuntu-latest
+     steps:
+     - uses: actions/checkout@v2
+# nameは使うものを決める。これは1行を実行
+     - name: Run a one-line script
+       run: echo Hello, world!
