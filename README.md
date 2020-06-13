@@ -1,5 +1,10 @@
 # github-actions-test
-GitHubActionのテスト
+
+## GitHub Actionsとは
+
+- [この記事わかりやすい](https://knowledge.sakura.ad.jp/23478/)
+
+- とりあえず注意しなくてはいけないのは制限があること。
 
 # CloudRunデプロイ
 
@@ -16,4 +21,6 @@ GitHubActionのテスト
 - 有効にしたらstorage access denied。CloudBuildの権限も必要？ 
 
 ## 案2
+
+- 参考URL:https://qiita.com/szk3/items/38a3dba7fdfed189f4c9
 

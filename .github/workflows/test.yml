@@ -2,19 +2,19 @@
  name: CI
 
  on:
-   push:
-     branches: [ master ]
-   pull_request:
-     branches: [ master ]
+    pull_request:
+      types: [ closed ]
+      branches: [ master ]
 
  jobs:
+   if: github.event.pull_request.merged == true
    build:
      runs-on: ubuntu-latest
      steps:
      - uses: actions/checkout@v2
 # nameは使うものを決める。これは1行を実行
      - name: Run a one-line script
-       run: echo Hello, world!
+       run: echo MergedMaster
     
 
 
