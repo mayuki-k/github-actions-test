@@ -33,7 +33,8 @@ jobs:
               --project $GCP_PROJECT \
               --region $GCP_REGION \
               --platform managed \
-              --quiet
+              --quiet \
+              --allow-unauthenticated
     
 
 
