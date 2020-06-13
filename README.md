@@ -3,6 +3,10 @@ GitHubActionのテスト
 
 # CloudRunデプロイ
 
+## 権限
+
+- iam.serviceaccounts.actAs
+
 ## 案1
 
 - gcloudでCloudRunへのデプロイを頑張っている
