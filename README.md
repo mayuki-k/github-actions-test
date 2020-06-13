@@ -1,5 +1,10 @@
 # github-actions-test
-GitHubActionのテスト
+
+## GitHub Actionsとは
+
+- [この記事わかりやすい](https://knowledge.sakura.ad.jp/23478/)
+
+- とりあえず注意しなくてはいけないのは制限があること。
 
 # CloudRunデプロイ
 
